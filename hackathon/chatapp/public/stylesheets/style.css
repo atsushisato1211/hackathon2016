@@ -1,0 +1,109 @@
+/*
+ * 画面全体に関する設定
+ */
+body {
+    font: 14px "Lucida Grande", Meiryo, Helvetica, Arial, sans-serif;
+    /*background-color: #F4B0B2*/
+    background-image: url("./bg059_01.gif");
+
+}
+
+a {
+    color: #00B7FF;
+}
+
+div {
+    margin: 20px 0px;
+}
+
+.toukou {
+  border: 3px solid #800000;
+  padding: 5px;
+  margin: 0px 0px 10px 0px;
+  background-color: #FFEEFF;
+}
+
+.memo {
+  border: 3px solid #800000;
+  padding: 5px;
+  margin: 0px 0px 10px 0px;
+  background-color: #FFDBC9;
+}
+
+.time {
+  float: right;
+  color: #0000FF;
+}
+
+.right{
+  text-align: right;
+}
+
+.row {
+    margin: 20px;
+}
+
+/*
+ * ボタンの共通設定
+ */
+.common-button {
+
+}
+
+/*
+ * トップ画面（index.hbs）に関する設定
+ */
+.index-user_name {
+
+}
+
+.index-user_name_text {
+    width: 200px;
+}
+
+.index-enter {
+
+}
+
+.index-enter_button {
+
+}
+
+/*
+ * チャットルーム画面（room.hbs）に関する設定
+ */
+.room-login_user {
+
+ }
+
+.room-message {
+
+}
+
+.room-message_textarea {
+    width: 500px;
+}
+
+.room-submit {
+\
+}
+
+.room-publish_button {
+
+}
+
+.room-memo_button {
+
+}
+
+.room-thread {
+
+}
+
+.room-exit {
+
+}
+
+.room-exit_button {
+
+}
